@@ -1,0 +1,2520 @@
+{
+ "version": 1,
+ "generated": "2026-09-04T11:37:05Z",
+ "layers": [
+  {
+   "id": "t2m",
+   "label": "Temperature",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.62,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "2 m temperature (\u00b0F)",
+    "min": 50.0,
+    "max": 85.0,
+    "stops": [
+     "#30123b",
+     "#4143a7",
+     "#4771e9",
+     "#3e9bfe",
+     "#22c5e2",
+     "#1ae4b6",
+     "#46f884",
+     "#88ff4e",
+     "#b9f635",
+     "#e1dd37",
+     "#faba39",
+     "#fd8d27",
+     "#f05b12",
+     "#d63506",
+     "#af1801",
+     "#7a0403"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "\u00b0F"
+   },
+   "frames": [
+    {
+     "file": "t2m/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "t2m/00.json"
+    },
+    {
+     "file": "t2m/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "t2m/01.json"
+    },
+    {
+     "file": "t2m/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "t2m/02.json"
+    },
+    {
+     "file": "t2m/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "t2m/03.json"
+    },
+    {
+     "file": "t2m/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "t2m/04.json"
+    },
+    {
+     "file": "t2m/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "t2m/05.json"
+    },
+    {
+     "file": "t2m/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "t2m/06.json"
+    },
+    {
+     "file": "t2m/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "t2m/07.json"
+    },
+    {
+     "file": "t2m/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "t2m/08.json"
+    },
+    {
+     "file": "t2m/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "t2m/09.json"
+    },
+    {
+     "file": "t2m/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "t2m/10.json"
+    },
+    {
+     "file": "t2m/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "t2m/11.json"
+    },
+    {
+     "file": "t2m/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "t2m/12.json"
+    },
+    {
+     "file": "t2m/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "t2m/13.json"
+    },
+    {
+     "file": "t2m/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "t2m/14.json"
+    },
+    {
+     "file": "t2m/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "t2m/15.json"
+    },
+    {
+     "file": "t2m/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "t2m/16.json"
+    },
+    {
+     "file": "t2m/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "t2m/17.json"
+    },
+    {
+     "file": "t2m/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "t2m/18.json"
+    },
+    {
+     "file": "t2m/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "t2m/19.json"
+    },
+    {
+     "file": "t2m/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "t2m/20.json"
+    },
+    {
+     "file": "t2m/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "t2m/21.json"
+    },
+    {
+     "file": "t2m/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "t2m/22.json"
+    },
+    {
+     "file": "t2m/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "t2m/23.json"
+    },
+    {
+     "file": "t2m/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "t2m/24.json"
+    },
+    {
+     "file": "t2m/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "t2m/25.json"
+    },
+    {
+     "file": "t2m/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "t2m/26.json"
+    },
+    {
+     "file": "t2m/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "t2m/27.json"
+    },
+    {
+     "file": "t2m/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "t2m/28.json"
+    },
+    {
+     "file": "t2m/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "t2m/29.json"
+    },
+    {
+     "file": "t2m/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "t2m/30.json"
+    },
+    {
+     "file": "t2m/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "t2m/31.json"
+    },
+    {
+     "file": "t2m/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "t2m/32.json"
+    },
+    {
+     "file": "t2m/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "t2m/33.json"
+    },
+    {
+     "file": "t2m/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "t2m/34.json"
+    },
+    {
+     "file": "t2m/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "t2m/35.json"
+    },
+    {
+     "file": "t2m/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "t2m/36.json"
+    },
+    {
+     "file": "t2m/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "t2m/37.json"
+    },
+    {
+     "file": "t2m/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "t2m/38.json"
+    },
+    {
+     "file": "t2m/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "t2m/39.json"
+    },
+    {
+     "file": "t2m/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "t2m/40.json"
+    },
+    {
+     "file": "t2m/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "t2m/41.json"
+    },
+    {
+     "file": "t2m/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "t2m/42.json"
+    },
+    {
+     "file": "t2m/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "t2m/43.json"
+    },
+    {
+     "file": "t2m/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "t2m/44.json"
+    },
+    {
+     "file": "t2m/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "t2m/45.json"
+    },
+    {
+     "file": "t2m/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "t2m/46.json"
+    },
+    {
+     "file": "t2m/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "t2m/47.json"
+    },
+    {
+     "file": "t2m/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "t2m/48.json"
+    }
+   ]
+  },
+  {
+   "id": "wind",
+   "label": "Wind",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.62,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "10 m wind (mph)",
+    "min": 0.0,
+    "max": 20.0,
+    "stops": [
+     "#f7fcfd",
+     "#ebf3f8",
+     "#deeaf3",
+     "#ccddec",
+     "#bbd0e4",
+     "#a9c4de",
+     "#9ab4d6",
+     "#91a0cb",
+     "#8c8bc0",
+     "#8c74b5",
+     "#8b5daa",
+     "#8947a0",
+     "#852d90",
+     "#81127e",
+     "#690865",
+     "#4d004b"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "mph"
+   },
+   "frames": [
+    {
+     "file": "wind/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "wind/00.json"
+    },
+    {
+     "file": "wind/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "wind/01.json"
+    },
+    {
+     "file": "wind/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "wind/02.json"
+    },
+    {
+     "file": "wind/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "wind/03.json"
+    },
+    {
+     "file": "wind/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "wind/04.json"
+    },
+    {
+     "file": "wind/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "wind/05.json"
+    },
+    {
+     "file": "wind/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "wind/06.json"
+    },
+    {
+     "file": "wind/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "wind/07.json"
+    },
+    {
+     "file": "wind/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "wind/08.json"
+    },
+    {
+     "file": "wind/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "wind/09.json"
+    },
+    {
+     "file": "wind/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "wind/10.json"
+    },
+    {
+     "file": "wind/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "wind/11.json"
+    },
+    {
+     "file": "wind/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "wind/12.json"
+    },
+    {
+     "file": "wind/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "wind/13.json"
+    },
+    {
+     "file": "wind/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "wind/14.json"
+    },
+    {
+     "file": "wind/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "wind/15.json"
+    },
+    {
+     "file": "wind/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "wind/16.json"
+    },
+    {
+     "file": "wind/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "wind/17.json"
+    },
+    {
+     "file": "wind/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "wind/18.json"
+    },
+    {
+     "file": "wind/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "wind/19.json"
+    },
+    {
+     "file": "wind/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "wind/20.json"
+    },
+    {
+     "file": "wind/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "wind/21.json"
+    },
+    {
+     "file": "wind/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "wind/22.json"
+    },
+    {
+     "file": "wind/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "wind/23.json"
+    },
+    {
+     "file": "wind/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "wind/24.json"
+    },
+    {
+     "file": "wind/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "wind/25.json"
+    },
+    {
+     "file": "wind/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "wind/26.json"
+    },
+    {
+     "file": "wind/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "wind/27.json"
+    },
+    {
+     "file": "wind/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "wind/28.json"
+    },
+    {
+     "file": "wind/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "wind/29.json"
+    },
+    {
+     "file": "wind/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "wind/30.json"
+    },
+    {
+     "file": "wind/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "wind/31.json"
+    },
+    {
+     "file": "wind/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "wind/32.json"
+    },
+    {
+     "file": "wind/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "wind/33.json"
+    },
+    {
+     "file": "wind/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "wind/34.json"
+    },
+    {
+     "file": "wind/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "wind/35.json"
+    },
+    {
+     "file": "wind/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "wind/36.json"
+    },
+    {
+     "file": "wind/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "wind/37.json"
+    },
+    {
+     "file": "wind/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "wind/38.json"
+    },
+    {
+     "file": "wind/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "wind/39.json"
+    },
+    {
+     "file": "wind/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "wind/40.json"
+    },
+    {
+     "file": "wind/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "wind/41.json"
+    },
+    {
+     "file": "wind/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "wind/42.json"
+    },
+    {
+     "file": "wind/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "wind/43.json"
+    },
+    {
+     "file": "wind/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "wind/44.json"
+    },
+    {
+     "file": "wind/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "wind/45.json"
+    },
+    {
+     "file": "wind/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "wind/46.json"
+    },
+    {
+     "file": "wind/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "wind/47.json"
+    },
+    {
+     "file": "wind/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "wind/48.json"
+    }
+   ]
+  },
+  {
+   "id": "gust",
+   "label": "Gusts",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.62,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "Wind gusts (mph)",
+    "min": 0.0,
+    "max": 40.0,
+    "stops": [
+     "#ffffcc",
+     "#fff5b5",
+     "#ffec9d",
+     "#fee187",
+     "#fed470",
+     "#febf5a",
+     "#feab49",
+     "#fd9740",
+     "#fd7c37",
+     "#fc5b2e",
+     "#f43d25",
+     "#e6211e",
+     "#d41020",
+     "#c00225",
+     "#a10026",
+     "#800026"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "mph"
+   },
+   "frames": [
+    {
+     "file": "gust/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "gust/00.json"
+    },
+    {
+     "file": "gust/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "gust/01.json"
+    },
+    {
+     "file": "gust/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "gust/02.json"
+    },
+    {
+     "file": "gust/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "gust/03.json"
+    },
+    {
+     "file": "gust/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "gust/04.json"
+    },
+    {
+     "file": "gust/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "gust/05.json"
+    },
+    {
+     "file": "gust/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "gust/06.json"
+    },
+    {
+     "file": "gust/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "gust/07.json"
+    },
+    {
+     "file": "gust/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "gust/08.json"
+    },
+    {
+     "file": "gust/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "gust/09.json"
+    },
+    {
+     "file": "gust/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "gust/10.json"
+    },
+    {
+     "file": "gust/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "gust/11.json"
+    },
+    {
+     "file": "gust/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "gust/12.json"
+    },
+    {
+     "file": "gust/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "gust/13.json"
+    },
+    {
+     "file": "gust/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "gust/14.json"
+    },
+    {
+     "file": "gust/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "gust/15.json"
+    },
+    {
+     "file": "gust/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "gust/16.json"
+    },
+    {
+     "file": "gust/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "gust/17.json"
+    },
+    {
+     "file": "gust/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "gust/18.json"
+    },
+    {
+     "file": "gust/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "gust/19.json"
+    },
+    {
+     "file": "gust/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "gust/20.json"
+    },
+    {
+     "file": "gust/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "gust/21.json"
+    },
+    {
+     "file": "gust/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "gust/22.json"
+    },
+    {
+     "file": "gust/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "gust/23.json"
+    },
+    {
+     "file": "gust/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "gust/24.json"
+    },
+    {
+     "file": "gust/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "gust/25.json"
+    },
+    {
+     "file": "gust/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "gust/26.json"
+    },
+    {
+     "file": "gust/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "gust/27.json"
+    },
+    {
+     "file": "gust/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "gust/28.json"
+    },
+    {
+     "file": "gust/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "gust/29.json"
+    },
+    {
+     "file": "gust/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "gust/30.json"
+    },
+    {
+     "file": "gust/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "gust/31.json"
+    },
+    {
+     "file": "gust/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "gust/32.json"
+    },
+    {
+     "file": "gust/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "gust/33.json"
+    },
+    {
+     "file": "gust/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "gust/34.json"
+    },
+    {
+     "file": "gust/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "gust/35.json"
+    },
+    {
+     "file": "gust/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "gust/36.json"
+    },
+    {
+     "file": "gust/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "gust/37.json"
+    },
+    {
+     "file": "gust/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "gust/38.json"
+    },
+    {
+     "file": "gust/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "gust/39.json"
+    },
+    {
+     "file": "gust/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "gust/40.json"
+    },
+    {
+     "file": "gust/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "gust/41.json"
+    },
+    {
+     "file": "gust/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "gust/42.json"
+    },
+    {
+     "file": "gust/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "gust/43.json"
+    },
+    {
+     "file": "gust/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "gust/44.json"
+    },
+    {
+     "file": "gust/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "gust/45.json"
+    },
+    {
+     "file": "gust/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "gust/46.json"
+    },
+    {
+     "file": "gust/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "gust/47.json"
+    },
+    {
+     "file": "gust/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "gust/48.json"
+    }
+   ]
+  },
+  {
+   "id": "refc",
+   "label": "Radar",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.82,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "steps",
+    "label": "Simulated reflectivity (dBZ)",
+    "bounds": [
+     5.0,
+     10.0,
+     15.0,
+     20.0,
+     25.0,
+     30.0,
+     35.0,
+     40.0,
+     45.0,
+     50.0,
+     55.0,
+     60.0,
+     65.0,
+     70.0,
+     75.0
+    ],
+    "colors": [
+     "#04e9e7",
+     "#019ff4",
+     "#0300f4",
+     "#02fd02",
+     "#01c501",
+     "#008e00",
+     "#fdf802",
+     "#e5bc00",
+     "#fd9500",
+     "#fd0000",
+     "#d40000",
+     "#bc0000",
+     "#f800fd",
+     "#9854c6"
+    ],
+    "over": "#fdfdfd"
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "dBZ"
+   },
+   "frames": [
+    {
+     "file": "refc/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "refc/00.json"
+    },
+    {
+     "file": "refc/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "refc/01.json"
+    },
+    {
+     "file": "refc/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "refc/02.json"
+    },
+    {
+     "file": "refc/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "refc/03.json"
+    },
+    {
+     "file": "refc/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "refc/04.json"
+    },
+    {
+     "file": "refc/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "refc/05.json"
+    },
+    {
+     "file": "refc/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "refc/06.json"
+    },
+    {
+     "file": "refc/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "refc/07.json"
+    },
+    {
+     "file": "refc/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "refc/08.json"
+    },
+    {
+     "file": "refc/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "refc/09.json"
+    },
+    {
+     "file": "refc/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "refc/10.json"
+    },
+    {
+     "file": "refc/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "refc/11.json"
+    },
+    {
+     "file": "refc/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "refc/12.json"
+    },
+    {
+     "file": "refc/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "refc/13.json"
+    },
+    {
+     "file": "refc/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "refc/14.json"
+    },
+    {
+     "file": "refc/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "refc/15.json"
+    },
+    {
+     "file": "refc/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "refc/16.json"
+    },
+    {
+     "file": "refc/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "refc/17.json"
+    },
+    {
+     "file": "refc/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "refc/18.json"
+    },
+    {
+     "file": "refc/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "refc/19.json"
+    },
+    {
+     "file": "refc/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "refc/20.json"
+    },
+    {
+     "file": "refc/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "refc/21.json"
+    },
+    {
+     "file": "refc/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "refc/22.json"
+    },
+    {
+     "file": "refc/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "refc/23.json"
+    },
+    {
+     "file": "refc/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "refc/24.json"
+    },
+    {
+     "file": "refc/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "refc/25.json"
+    },
+    {
+     "file": "refc/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "refc/26.json"
+    },
+    {
+     "file": "refc/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "refc/27.json"
+    },
+    {
+     "file": "refc/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "refc/28.json"
+    },
+    {
+     "file": "refc/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "refc/29.json"
+    },
+    {
+     "file": "refc/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "refc/30.json"
+    },
+    {
+     "file": "refc/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "refc/31.json"
+    },
+    {
+     "file": "refc/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "refc/32.json"
+    },
+    {
+     "file": "refc/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "refc/33.json"
+    },
+    {
+     "file": "refc/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "refc/34.json"
+    },
+    {
+     "file": "refc/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "refc/35.json"
+    },
+    {
+     "file": "refc/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "refc/36.json"
+    },
+    {
+     "file": "refc/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "refc/37.json"
+    },
+    {
+     "file": "refc/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "refc/38.json"
+    },
+    {
+     "file": "refc/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "refc/39.json"
+    },
+    {
+     "file": "refc/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "refc/40.json"
+    },
+    {
+     "file": "refc/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "refc/41.json"
+    },
+    {
+     "file": "refc/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "refc/42.json"
+    },
+    {
+     "file": "refc/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "refc/43.json"
+    },
+    {
+     "file": "refc/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "refc/44.json"
+    },
+    {
+     "file": "refc/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "refc/45.json"
+    },
+    {
+     "file": "refc/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "refc/46.json"
+    },
+    {
+     "file": "refc/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "refc/47.json"
+    },
+    {
+     "file": "refc/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "refc/48.json"
+    }
+   ]
+  },
+  {
+   "id": "precip",
+   "label": "Precip",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.72,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "steps",
+    "label": "Total precip since init (in)",
+    "bounds": [
+     0.01,
+     0.1,
+     0.25,
+     0.5,
+     0.75,
+     1.0,
+     1.5,
+     2.0,
+     3.0,
+     4.0,
+     6.0
+    ],
+    "colors": [
+     "#c7e9c0",
+     "#a1d99b",
+     "#41ab5d",
+     "#006d2c",
+     "#fff705",
+     "#ffc400",
+     "#ff8700",
+     "#ff0000",
+     "#c80000",
+     "#9f00c8"
+    ],
+    "over": "#6a006a"
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "in"
+   },
+   "frames": [
+    {
+     "file": "precip/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "precip/00.json"
+    },
+    {
+     "file": "precip/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "precip/01.json"
+    },
+    {
+     "file": "precip/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "precip/02.json"
+    },
+    {
+     "file": "precip/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "precip/03.json"
+    },
+    {
+     "file": "precip/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "precip/04.json"
+    },
+    {
+     "file": "precip/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "precip/05.json"
+    },
+    {
+     "file": "precip/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "precip/06.json"
+    },
+    {
+     "file": "precip/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "precip/07.json"
+    },
+    {
+     "file": "precip/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "precip/08.json"
+    },
+    {
+     "file": "precip/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "precip/09.json"
+    },
+    {
+     "file": "precip/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "precip/10.json"
+    },
+    {
+     "file": "precip/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "precip/11.json"
+    },
+    {
+     "file": "precip/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "precip/12.json"
+    },
+    {
+     "file": "precip/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "precip/13.json"
+    },
+    {
+     "file": "precip/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "precip/14.json"
+    },
+    {
+     "file": "precip/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "precip/15.json"
+    },
+    {
+     "file": "precip/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "precip/16.json"
+    },
+    {
+     "file": "precip/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "precip/17.json"
+    },
+    {
+     "file": "precip/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "precip/18.json"
+    },
+    {
+     "file": "precip/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "precip/19.json"
+    },
+    {
+     "file": "precip/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "precip/20.json"
+    },
+    {
+     "file": "precip/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "precip/21.json"
+    },
+    {
+     "file": "precip/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "precip/22.json"
+    },
+    {
+     "file": "precip/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "precip/23.json"
+    },
+    {
+     "file": "precip/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "precip/24.json"
+    },
+    {
+     "file": "precip/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "precip/25.json"
+    },
+    {
+     "file": "precip/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "precip/26.json"
+    },
+    {
+     "file": "precip/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "precip/27.json"
+    },
+    {
+     "file": "precip/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "precip/28.json"
+    },
+    {
+     "file": "precip/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "precip/29.json"
+    },
+    {
+     "file": "precip/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "precip/30.json"
+    },
+    {
+     "file": "precip/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "precip/31.json"
+    },
+    {
+     "file": "precip/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "precip/32.json"
+    },
+    {
+     "file": "precip/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "precip/33.json"
+    },
+    {
+     "file": "precip/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "precip/34.json"
+    },
+    {
+     "file": "precip/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "precip/35.json"
+    },
+    {
+     "file": "precip/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "precip/36.json"
+    },
+    {
+     "file": "precip/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "precip/37.json"
+    },
+    {
+     "file": "precip/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "precip/38.json"
+    },
+    {
+     "file": "precip/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "precip/39.json"
+    },
+    {
+     "file": "precip/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "precip/40.json"
+    },
+    {
+     "file": "precip/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "precip/41.json"
+    },
+    {
+     "file": "precip/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "precip/42.json"
+    },
+    {
+     "file": "precip/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "precip/43.json"
+    },
+    {
+     "file": "precip/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "precip/44.json"
+    },
+    {
+     "file": "precip/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "precip/45.json"
+    },
+    {
+     "file": "precip/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "precip/46.json"
+    },
+    {
+     "file": "precip/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "precip/47.json"
+    },
+    {
+     "file": "precip/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "precip/48.json"
+    }
+   ]
+  },
+  {
+   "id": "snow",
+   "label": "Snow",
+   "source": "NOAA HRRR",
+   "kind": "forecast",
+   "init": "2026-09-04T06:00:00Z",
+   "stale_minutes": 240,
+   "opacity": 0.72,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "steps",
+    "label": "Total snowfall since init (in)",
+    "bounds": [
+     0.1,
+     0.5,
+     1.0,
+     2.0,
+     4.0,
+     6.0,
+     9.0,
+     12.0,
+     18.0,
+     24.0
+    ],
+    "colors": [
+     "#d0d1e6",
+     "#b0c2de",
+     "#8cb3d5",
+     "#63a2cb",
+     "#358fc0",
+     "#1077b4",
+     "#04649e",
+     "#03517e",
+     "#023858"
+    ],
+    "over": "#c026c0"
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "in"
+   },
+   "frames": [
+    {
+     "file": "snow/00.png",
+     "valid": "2026-09-04T06:00:00Z",
+     "data": "snow/00.json"
+    },
+    {
+     "file": "snow/01.png",
+     "valid": "2026-09-04T07:00:00Z",
+     "data": "snow/01.json"
+    },
+    {
+     "file": "snow/02.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "snow/02.json"
+    },
+    {
+     "file": "snow/03.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "snow/03.json"
+    },
+    {
+     "file": "snow/04.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "snow/04.json"
+    },
+    {
+     "file": "snow/05.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "snow/05.json"
+    },
+    {
+     "file": "snow/06.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "snow/06.json"
+    },
+    {
+     "file": "snow/07.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "snow/07.json"
+    },
+    {
+     "file": "snow/08.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "snow/08.json"
+    },
+    {
+     "file": "snow/09.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "snow/09.json"
+    },
+    {
+     "file": "snow/10.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "snow/10.json"
+    },
+    {
+     "file": "snow/11.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "snow/11.json"
+    },
+    {
+     "file": "snow/12.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "snow/12.json"
+    },
+    {
+     "file": "snow/13.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "snow/13.json"
+    },
+    {
+     "file": "snow/14.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "snow/14.json"
+    },
+    {
+     "file": "snow/15.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "snow/15.json"
+    },
+    {
+     "file": "snow/16.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "snow/16.json"
+    },
+    {
+     "file": "snow/17.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "snow/17.json"
+    },
+    {
+     "file": "snow/18.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "snow/18.json"
+    },
+    {
+     "file": "snow/19.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "snow/19.json"
+    },
+    {
+     "file": "snow/20.png",
+     "valid": "2026-09-05T02:00:00Z",
+     "data": "snow/20.json"
+    },
+    {
+     "file": "snow/21.png",
+     "valid": "2026-09-05T03:00:00Z",
+     "data": "snow/21.json"
+    },
+    {
+     "file": "snow/22.png",
+     "valid": "2026-09-05T04:00:00Z",
+     "data": "snow/22.json"
+    },
+    {
+     "file": "snow/23.png",
+     "valid": "2026-09-05T05:00:00Z",
+     "data": "snow/23.json"
+    },
+    {
+     "file": "snow/24.png",
+     "valid": "2026-09-05T06:00:00Z",
+     "data": "snow/24.json"
+    },
+    {
+     "file": "snow/25.png",
+     "valid": "2026-09-05T07:00:00Z",
+     "data": "snow/25.json"
+    },
+    {
+     "file": "snow/26.png",
+     "valid": "2026-09-05T08:00:00Z",
+     "data": "snow/26.json"
+    },
+    {
+     "file": "snow/27.png",
+     "valid": "2026-09-05T09:00:00Z",
+     "data": "snow/27.json"
+    },
+    {
+     "file": "snow/28.png",
+     "valid": "2026-09-05T10:00:00Z",
+     "data": "snow/28.json"
+    },
+    {
+     "file": "snow/29.png",
+     "valid": "2026-09-05T11:00:00Z",
+     "data": "snow/29.json"
+    },
+    {
+     "file": "snow/30.png",
+     "valid": "2026-09-05T12:00:00Z",
+     "data": "snow/30.json"
+    },
+    {
+     "file": "snow/31.png",
+     "valid": "2026-09-05T13:00:00Z",
+     "data": "snow/31.json"
+    },
+    {
+     "file": "snow/32.png",
+     "valid": "2026-09-05T14:00:00Z",
+     "data": "snow/32.json"
+    },
+    {
+     "file": "snow/33.png",
+     "valid": "2026-09-05T15:00:00Z",
+     "data": "snow/33.json"
+    },
+    {
+     "file": "snow/34.png",
+     "valid": "2026-09-05T16:00:00Z",
+     "data": "snow/34.json"
+    },
+    {
+     "file": "snow/35.png",
+     "valid": "2026-09-05T17:00:00Z",
+     "data": "snow/35.json"
+    },
+    {
+     "file": "snow/36.png",
+     "valid": "2026-09-05T18:00:00Z",
+     "data": "snow/36.json"
+    },
+    {
+     "file": "snow/37.png",
+     "valid": "2026-09-05T19:00:00Z",
+     "data": "snow/37.json"
+    },
+    {
+     "file": "snow/38.png",
+     "valid": "2026-09-05T20:00:00Z",
+     "data": "snow/38.json"
+    },
+    {
+     "file": "snow/39.png",
+     "valid": "2026-09-05T21:00:00Z",
+     "data": "snow/39.json"
+    },
+    {
+     "file": "snow/40.png",
+     "valid": "2026-09-05T22:00:00Z",
+     "data": "snow/40.json"
+    },
+    {
+     "file": "snow/41.png",
+     "valid": "2026-09-05T23:00:00Z",
+     "data": "snow/41.json"
+    },
+    {
+     "file": "snow/42.png",
+     "valid": "2026-09-06T00:00:00Z",
+     "data": "snow/42.json"
+    },
+    {
+     "file": "snow/43.png",
+     "valid": "2026-09-06T01:00:00Z",
+     "data": "snow/43.json"
+    },
+    {
+     "file": "snow/44.png",
+     "valid": "2026-09-06T02:00:00Z",
+     "data": "snow/44.json"
+    },
+    {
+     "file": "snow/45.png",
+     "valid": "2026-09-06T03:00:00Z",
+     "data": "snow/45.json"
+    },
+    {
+     "file": "snow/46.png",
+     "valid": "2026-09-06T04:00:00Z",
+     "data": "snow/46.json"
+    },
+    {
+     "file": "snow/47.png",
+     "valid": "2026-09-06T05:00:00Z",
+     "data": "snow/47.json"
+    },
+    {
+     "file": "snow/48.png",
+     "valid": "2026-09-06T06:00:00Z",
+     "data": "snow/48.json"
+    }
+   ]
+  },
+  {
+   "id": "stormcast_t2m",
+   "label": "StormCast Temp",
+   "source": "GeoData StormCast \u00b7 DGX Spark",
+   "kind": "forecast",
+   "init": "2026-09-04T08:00:00Z",
+   "stale_minutes": 1560,
+   "opacity": 0.62,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "2 m temperature (\u00b0F)",
+    "min": 45.0,
+    "max": 85.0,
+    "stops": [
+     "#30123b",
+     "#4143a7",
+     "#4771e9",
+     "#3e9bfe",
+     "#22c5e2",
+     "#1ae4b6",
+     "#46f884",
+     "#88ff4e",
+     "#b9f635",
+     "#e1dd37",
+     "#faba39",
+     "#fd8d27",
+     "#f05b12",
+     "#d63506",
+     "#af1801",
+     "#7a0403"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "\u00b0F"
+   },
+   "frames": [
+    {
+     "file": "stormcast_t2m/00.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "stormcast_t2m/00.json"
+    },
+    {
+     "file": "stormcast_t2m/01.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "stormcast_t2m/01.json"
+    },
+    {
+     "file": "stormcast_t2m/02.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "stormcast_t2m/02.json"
+    },
+    {
+     "file": "stormcast_t2m/03.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "stormcast_t2m/03.json"
+    },
+    {
+     "file": "stormcast_t2m/04.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "stormcast_t2m/04.json"
+    },
+    {
+     "file": "stormcast_t2m/05.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "stormcast_t2m/05.json"
+    },
+    {
+     "file": "stormcast_t2m/06.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "stormcast_t2m/06.json"
+    },
+    {
+     "file": "stormcast_t2m/07.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "stormcast_t2m/07.json"
+    },
+    {
+     "file": "stormcast_t2m/08.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "stormcast_t2m/08.json"
+    },
+    {
+     "file": "stormcast_t2m/09.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "stormcast_t2m/09.json"
+    },
+    {
+     "file": "stormcast_t2m/10.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "stormcast_t2m/10.json"
+    },
+    {
+     "file": "stormcast_t2m/11.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "stormcast_t2m/11.json"
+    },
+    {
+     "file": "stormcast_t2m/12.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "stormcast_t2m/12.json"
+    },
+    {
+     "file": "stormcast_t2m/13.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "stormcast_t2m/13.json"
+    },
+    {
+     "file": "stormcast_t2m/14.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "stormcast_t2m/14.json"
+    },
+    {
+     "file": "stormcast_t2m/15.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "stormcast_t2m/15.json"
+    },
+    {
+     "file": "stormcast_t2m/16.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "stormcast_t2m/16.json"
+    },
+    {
+     "file": "stormcast_t2m/17.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "stormcast_t2m/17.json"
+    }
+   ]
+  },
+  {
+   "id": "stormcast_wind",
+   "label": "StormCast Wind",
+   "source": "GeoData StormCast \u00b7 DGX Spark",
+   "kind": "forecast",
+   "init": "2026-09-04T08:00:00Z",
+   "stale_minutes": 1560,
+   "opacity": 0.62,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "10 m wind (mph)",
+    "min": 0.0,
+    "max": 25.0,
+    "stops": [
+     "#f7fcfd",
+     "#ebf3f8",
+     "#deeaf3",
+     "#ccddec",
+     "#bbd0e4",
+     "#a9c4de",
+     "#9ab4d6",
+     "#91a0cb",
+     "#8c8bc0",
+     "#8c74b5",
+     "#8b5daa",
+     "#8947a0",
+     "#852d90",
+     "#81127e",
+     "#690865",
+     "#4d004b"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "mph"
+   },
+   "frames": [
+    {
+     "file": "stormcast_wind/00.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "stormcast_wind/00.json"
+    },
+    {
+     "file": "stormcast_wind/01.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "stormcast_wind/01.json"
+    },
+    {
+     "file": "stormcast_wind/02.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "stormcast_wind/02.json"
+    },
+    {
+     "file": "stormcast_wind/03.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "stormcast_wind/03.json"
+    },
+    {
+     "file": "stormcast_wind/04.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "stormcast_wind/04.json"
+    },
+    {
+     "file": "stormcast_wind/05.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "stormcast_wind/05.json"
+    },
+    {
+     "file": "stormcast_wind/06.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "stormcast_wind/06.json"
+    },
+    {
+     "file": "stormcast_wind/07.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "stormcast_wind/07.json"
+    },
+    {
+     "file": "stormcast_wind/08.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "stormcast_wind/08.json"
+    },
+    {
+     "file": "stormcast_wind/09.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "stormcast_wind/09.json"
+    },
+    {
+     "file": "stormcast_wind/10.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "stormcast_wind/10.json"
+    },
+    {
+     "file": "stormcast_wind/11.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "stormcast_wind/11.json"
+    },
+    {
+     "file": "stormcast_wind/12.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "stormcast_wind/12.json"
+    },
+    {
+     "file": "stormcast_wind/13.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "stormcast_wind/13.json"
+    },
+    {
+     "file": "stormcast_wind/14.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "stormcast_wind/14.json"
+    },
+    {
+     "file": "stormcast_wind/15.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "stormcast_wind/15.json"
+    },
+    {
+     "file": "stormcast_wind/16.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "stormcast_wind/16.json"
+    },
+    {
+     "file": "stormcast_wind/17.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "stormcast_wind/17.json"
+    }
+   ]
+  },
+  {
+   "id": "stormcast_refc",
+   "label": "StormCast Radar",
+   "source": "GeoData StormCast \u00b7 DGX Spark",
+   "kind": "forecast",
+   "init": "2026-09-04T08:00:00Z",
+   "stale_minutes": 1560,
+   "opacity": 0.82,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "steps",
+    "label": "Simulated reflectivity (dBZ)",
+    "bounds": [
+     5.0,
+     10.0,
+     15.0,
+     20.0,
+     25.0,
+     30.0,
+     35.0,
+     40.0,
+     45.0,
+     50.0,
+     55.0,
+     60.0,
+     65.0,
+     70.0,
+     75.0
+    ],
+    "colors": [
+     "#04e9e7",
+     "#019ff4",
+     "#0300f4",
+     "#02fd02",
+     "#01c501",
+     "#008e00",
+     "#fdf802",
+     "#e5bc00",
+     "#fd9500",
+     "#fd0000",
+     "#d40000",
+     "#bc0000",
+     "#f800fd",
+     "#9854c6"
+    ],
+    "over": "#fdfdfd"
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "dBZ"
+   },
+   "frames": [
+    {
+     "file": "stormcast_refc/00.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "stormcast_refc/00.json"
+    },
+    {
+     "file": "stormcast_refc/01.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "stormcast_refc/01.json"
+    },
+    {
+     "file": "stormcast_refc/02.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "stormcast_refc/02.json"
+    },
+    {
+     "file": "stormcast_refc/03.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "stormcast_refc/03.json"
+    },
+    {
+     "file": "stormcast_refc/04.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "stormcast_refc/04.json"
+    },
+    {
+     "file": "stormcast_refc/05.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "stormcast_refc/05.json"
+    },
+    {
+     "file": "stormcast_refc/06.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "stormcast_refc/06.json"
+    },
+    {
+     "file": "stormcast_refc/07.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "stormcast_refc/07.json"
+    },
+    {
+     "file": "stormcast_refc/08.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "stormcast_refc/08.json"
+    },
+    {
+     "file": "stormcast_refc/09.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "stormcast_refc/09.json"
+    },
+    {
+     "file": "stormcast_refc/10.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "stormcast_refc/10.json"
+    },
+    {
+     "file": "stormcast_refc/11.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "stormcast_refc/11.json"
+    },
+    {
+     "file": "stormcast_refc/12.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "stormcast_refc/12.json"
+    },
+    {
+     "file": "stormcast_refc/13.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "stormcast_refc/13.json"
+    },
+    {
+     "file": "stormcast_refc/14.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "stormcast_refc/14.json"
+    },
+    {
+     "file": "stormcast_refc/15.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "stormcast_refc/15.json"
+    },
+    {
+     "file": "stormcast_refc/16.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "stormcast_refc/16.json"
+    },
+    {
+     "file": "stormcast_refc/17.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "stormcast_refc/17.json"
+    }
+   ]
+  },
+  {
+   "id": "stormcast_rain",
+   "label": "StormCast Rain",
+   "source": "GeoData StormCast \u00b7 DGX Spark",
+   "kind": "forecast",
+   "init": "2026-09-04T08:00:00Z",
+   "stale_minutes": 1560,
+   "opacity": 0.72,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "gradient",
+    "label": "Rain rate, Z\u2013R from AI radar (in/hr)",
+    "min": 0.01,
+    "max": 0.75,
+    "stops": [
+     "#c7e9c0",
+     "#c7e9c0",
+     "#a1d99b",
+     "#41ab5d",
+     "#41ab5d",
+     "#006d2c",
+     "#fff705",
+     "#fff705",
+     "#ffc400",
+     "#ff8700",
+     "#ff8700",
+     "#ff0000",
+     "#c80000",
+     "#c80000",
+     "#9f00c8",
+     "#9f00c8"
+    ]
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "in/hr"
+   },
+   "frames": [
+    {
+     "file": "stormcast_rain/00.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "stormcast_rain/00.json"
+    },
+    {
+     "file": "stormcast_rain/01.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "stormcast_rain/01.json"
+    },
+    {
+     "file": "stormcast_rain/02.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "stormcast_rain/02.json"
+    },
+    {
+     "file": "stormcast_rain/03.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "stormcast_rain/03.json"
+    },
+    {
+     "file": "stormcast_rain/04.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "stormcast_rain/04.json"
+    },
+    {
+     "file": "stormcast_rain/05.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "stormcast_rain/05.json"
+    },
+    {
+     "file": "stormcast_rain/06.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "stormcast_rain/06.json"
+    },
+    {
+     "file": "stormcast_rain/07.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "stormcast_rain/07.json"
+    },
+    {
+     "file": "stormcast_rain/08.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "stormcast_rain/08.json"
+    },
+    {
+     "file": "stormcast_rain/09.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "stormcast_rain/09.json"
+    },
+    {
+     "file": "stormcast_rain/10.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "stormcast_rain/10.json"
+    },
+    {
+     "file": "stormcast_rain/11.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "stormcast_rain/11.json"
+    },
+    {
+     "file": "stormcast_rain/12.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "stormcast_rain/12.json"
+    },
+    {
+     "file": "stormcast_rain/13.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "stormcast_rain/13.json"
+    },
+    {
+     "file": "stormcast_rain/14.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "stormcast_rain/14.json"
+    },
+    {
+     "file": "stormcast_rain/15.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "stormcast_rain/15.json"
+    },
+    {
+     "file": "stormcast_rain/16.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "stormcast_rain/16.json"
+    },
+    {
+     "file": "stormcast_rain/17.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "stormcast_rain/17.json"
+    }
+   ]
+  },
+  {
+   "id": "stormcast_precip",
+   "label": "StormCast Precip",
+   "source": "GeoData StormCast \u00b7 DGX Spark",
+   "kind": "forecast",
+   "init": "2026-09-04T08:00:00Z",
+   "stale_minutes": 1560,
+   "opacity": 0.72,
+   "bounds": {
+    "n": 43.55,
+    "s": 41.95,
+    "w": -78.05,
+    "e": -75.15
+   },
+   "scale": {
+    "type": "steps",
+    "label": "Total precip since init, Z\u2013R (in)",
+    "bounds": [
+     0.01,
+     0.1,
+     0.25,
+     0.5,
+     0.75,
+     1.0,
+     1.5,
+     2.0,
+     3.0,
+     4.0,
+     6.0
+    ],
+    "colors": [
+     "#c7e9c0",
+     "#a1d99b",
+     "#41ab5d",
+     "#006d2c",
+     "#fff705",
+     "#ffc400",
+     "#ff8700",
+     "#ff0000",
+     "#c80000",
+     "#9f00c8"
+    ],
+    "over": "#6a006a"
+   },
+   "values": {
+    "n": 43.55,
+    "s": 41.95999999999994,
+    "w": -78.05,
+    "e": -75.16999999999989,
+    "rows": 54,
+    "cols": 97,
+    "unit": "in"
+   },
+   "frames": [
+    {
+     "file": "stormcast_precip/00.png",
+     "valid": "2026-09-04T08:00:00Z",
+     "data": "stormcast_precip/00.json"
+    },
+    {
+     "file": "stormcast_precip/01.png",
+     "valid": "2026-09-04T09:00:00Z",
+     "data": "stormcast_precip/01.json"
+    },
+    {
+     "file": "stormcast_precip/02.png",
+     "valid": "2026-09-04T10:00:00Z",
+     "data": "stormcast_precip/02.json"
+    },
+    {
+     "file": "stormcast_precip/03.png",
+     "valid": "2026-09-04T11:00:00Z",
+     "data": "stormcast_precip/03.json"
+    },
+    {
+     "file": "stormcast_precip/04.png",
+     "valid": "2026-09-04T12:00:00Z",
+     "data": "stormcast_precip/04.json"
+    },
+    {
+     "file": "stormcast_precip/05.png",
+     "valid": "2026-09-04T13:00:00Z",
+     "data": "stormcast_precip/05.json"
+    },
+    {
+     "file": "stormcast_precip/06.png",
+     "valid": "2026-09-04T14:00:00Z",
+     "data": "stormcast_precip/06.json"
+    },
+    {
+     "file": "stormcast_precip/07.png",
+     "valid": "2026-09-04T15:00:00Z",
+     "data": "stormcast_precip/07.json"
+    },
+    {
+     "file": "stormcast_precip/08.png",
+     "valid": "2026-09-04T16:00:00Z",
+     "data": "stormcast_precip/08.json"
+    },
+    {
+     "file": "stormcast_precip/09.png",
+     "valid": "2026-09-04T17:00:00Z",
+     "data": "stormcast_precip/09.json"
+    },
+    {
+     "file": "stormcast_precip/10.png",
+     "valid": "2026-09-04T18:00:00Z",
+     "data": "stormcast_precip/10.json"
+    },
+    {
+     "file": "stormcast_precip/11.png",
+     "valid": "2026-09-04T19:00:00Z",
+     "data": "stormcast_precip/11.json"
+    },
+    {
+     "file": "stormcast_precip/12.png",
+     "valid": "2026-09-04T20:00:00Z",
+     "data": "stormcast_precip/12.json"
+    },
+    {
+     "file": "stormcast_precip/13.png",
+     "valid": "2026-09-04T21:00:00Z",
+     "data": "stormcast_precip/13.json"
+    },
+    {
+     "file": "stormcast_precip/14.png",
+     "valid": "2026-09-04T22:00:00Z",
+     "data": "stormcast_precip/14.json"
+    },
+    {
+     "file": "stormcast_precip/15.png",
+     "valid": "2026-09-04T23:00:00Z",
+     "data": "stormcast_precip/15.json"
+    },
+    {
+     "file": "stormcast_precip/16.png",
+     "valid": "2026-09-05T00:00:00Z",
+     "data": "stormcast_precip/16.json"
+    },
+    {
+     "file": "stormcast_precip/17.png",
+     "valid": "2026-09-05T01:00:00Z",
+     "data": "stormcast_precip/17.json"
+    }
+   ]
+  }
+ ]
+}
