@@ -1,0 +1,1 @@
+{"checked":"2026-09-10T22:40:06.400559Z","decision":"wait:run_active","degraded":false,"layers":[{"age_minutes":1.4566759833333334,"expired":false,"id":"radar_refc","init":"2026-09-10T22:38:39Z"}],"official":false,"radar_valid_time":"2026-09-10T22:38:39Z","reason":null,"render_errors":[],"research":true}
